@@ -82,4 +82,15 @@
          }
        }
          echo PiouPiou();
+
+         echo "<br>";
+         echo "<br>";
+         echo "Question 8:";
+         echo "<br>";
+
+         $p= 1;
+         while ($p <= 30) {
+           // code...
+           echo "Petite péruche <br>"; $p++;
+         }
         ?>
