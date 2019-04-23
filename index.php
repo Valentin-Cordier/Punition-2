@@ -37,7 +37,19 @@
               // code...
               echo "Les valeurs ne sont pas comprises entre 5 et 100";
             }
+            echo "<br>";
+            echo "<br>";
+            echo "Question 5:";
+            echo "<br>";
 
+
+
+            function Addition($a, $b)
+            {
+              // code...
+              echo ($a + $b);
+            }
+            echo addition(5,50);
 
 
         ?>
