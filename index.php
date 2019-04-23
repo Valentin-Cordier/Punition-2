@@ -8,20 +8,14 @@
         <?php
              $A = "98";
              $B = "97";
-             $C = "95";
+             $C = "96";
 
+            echo "Question 1 et 2: ";
+            echo "<br>";
+            echo min($A, $B, $C);
 
-             if ($A < $B == $C) {
-               // code...
-               echo "$A";
-             } else {
-               // code...
-               echo "$B";
-             } else {
-               // code...
-               echo "$C";
-             };
-
+            echo "Question 3:";
+            echo "<br>";
 
 
 
