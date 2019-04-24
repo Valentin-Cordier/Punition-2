@@ -88,21 +88,21 @@
          echo "Question 8:";
          echo "<br>";
 
-        /* for ($p= 1; $p <= 30; $p++) {
+         for ($p= 1; $p <= 30; $p++) {
            // code...
            echo $p;
            echo " Petite péruche <br>";
-         }*/
+         }
 
            echo "<br>";
            echo "<br>";
            echo "Question 9:";
            echo "<br>";
 
-           /*for ($p = rand(1,100); $p < 50; $p++) {
+           for ($p = rand(1,100); $p < 50; $p++) {
              // code...
              echo $p. " Petite péruche <br>";
-           }*/
+           }
 
              echo "<br>";
              echo "<br>";
@@ -129,4 +129,37 @@
               }
             }
             echo peruche();
+
+            echo "<br>";
+            echo "<br>";
+            echo "Question 11:";
+            echo "<br>";
+
+            $nbr= rand(1,10);
+            switch ($nbr) {
+            case '1':
+              // code...
+            echo "AAAA";
+            break;
+
+              case '2':
+              // code...
+              echo "BBBB";
+              break;
+
+                case '3':
+                // code...
+                echo "CCCC";
+                break;
+
+                case '4':
+                // code...
+                echo "DDDD";
+                break;
+
+              default:
+                // code...
+                echo "Je suis un péruche";
+                break;
+            }
         ?>
