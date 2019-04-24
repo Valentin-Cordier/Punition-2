@@ -90,7 +90,17 @@
 
          for ($p= 1; $p <= 30; $p++) {
            // code...
-           echo $p; 
+           echo $p;
            echo " Petite péruche <br>";
+         }
+
+           echo "<br>";
+           echo "<br>";
+           echo "Question 9:";
+           echo "<br>";
+
+           for ($p = rand(1,100); $p < 50; $p++) {
+             // code...
+             echo $p. " Petite péruche <br>";
          }
         ?>
