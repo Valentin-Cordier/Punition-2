@@ -12,12 +12,12 @@
              $nbr1 = "1";
              $nbr2 = "100";
 
-            echo "Question 1 et 2: ";
+            echo "<h2>Question 1 et 2:</h2> ";
             echo "<br>";
             echo min($A, $B, $C);
             echo "<br>";
 
-            echo "Question 3:";
+            echo "<h2>Question 3:</h2>";
             echo "<br>";
             $n = rand(1,100);
              if ($n) {
@@ -26,7 +26,7 @@
              }
 
             echo "<br>";
-            echo "Question 4:";
+            echo "<h2>Question 4:</h2>";
             echo "<br>";
             $N = rand(5,100);
              if ($N) {
@@ -35,7 +35,7 @@
              }
             echo "<br>";
             echo "<br>";
-            echo "Question 5:";
+            echo "<h2>Question 5:</h2>";
             echo "<br>";
 
 
@@ -49,7 +49,7 @@
 
             echo "<br>";
             echo "<br>";
-            echo "Question 6:";
+            echo "<h2>Question 6:</h2>";
             echo "<br>";
 
         function pgcd($nombre,$nombre2){
@@ -68,7 +68,7 @@
 
          echo "<br>";
          echo "<br>";
-         echo "Question 7:";
+         echo "<h2>Question 7:</h2>";
          echo "<br>";
 
          function PiouPiou (){
@@ -85,7 +85,7 @@
 
          echo "<br>";
          echo "<br>";
-         echo "Question 8:";
+         echo "<h2>Question 8:</h2>";
          echo "<br>";
 
          for ($p= 1; $p <= 30; $p++) {
@@ -96,7 +96,7 @@
 
            echo "<br>";
            echo "<br>";
-           echo "Question 9:";
+           echo "<h2>Question 9:</h2>";
            echo "<br>";
 
            for ($p = rand(1,100); $p < 50; $p++) {
@@ -106,33 +106,34 @@
 
              echo "<br>";
              echo "<br>";
-             echo "Question 10:";
+             echo "<h2>Question 10:</h2>";
              echo "<br>";
 
               function peruche (){
                 $p = rand (1, 10);
                 if ($p== 1) {
-                  // code...
+                  // si $p egal 1 alors
                   echo "AAAA";
-                } if ($p== 2) {
-                  // code...
+                }else if ($p== 2) {
+                  // sinon si $p egal 2 alors
                   echo "BBBB";
-                } if ($p== 3) {
-                  // code...
+                }else if ($p== 3) {
+                  // sinon si $p egal 3 alors
                   echo "CCCC";
                   // code...
-                } if ($p== 4) {
-                  // code...
+                }else if ($p== 4) {
+                  // sinon si $p egal 4 alors
                   echo "DDDD";
-                }if ($p>4){
-                echo "Je suis un péruche";
+                }else{
+                  //sinon je suis une perruche
+                echo "Je suis un perruche";
               }
             }
             echo peruche();
 
             echo "<br>";
             echo "<br>";
-            echo "Question 11:";
+            echo "<h2>Question 11:</h2>";
             echo "<br>";
 
             $nbr= rand(1,10);
@@ -159,13 +160,13 @@
 
               default:
                 // code...
-                echo "Je suis un péruche";
+                echo "Je suis un perruche";
                 break;
             }
 
             echo "<br>";
             echo "<br>";
-            echo "Question 12:";
+            echo "<h2>Question 12:</h2>";
             echo "<br>";
 
             function incl(){
@@ -182,7 +183,7 @@
 
           echo "<br>";
           echo "<br>";
-          echo "Question 13:";
+          echo "<h2>Question 13:</h2>";
           echo "<br>";
 
           $tableau = array();
