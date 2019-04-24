@@ -179,4 +179,19 @@
             }
           }
           echo incl();
+
+          echo "<br>";
+          echo "<br>";
+          echo "Question 13:";
+          echo "<br>";
+
+          $tableau = array();
+
+          for ($i=0;  $i < 10 ; $i++) {
+            // code...
+            $x = rand (1, 50);
+
+            array_push($tableau, $x);
+            echo $tableau[$i]. "<br>";
+          }
         ?>
