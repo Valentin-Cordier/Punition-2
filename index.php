@@ -88,9 +88,9 @@
          echo "Question 8:";
          echo "<br>";
 
-         $p= 1;
-         while ($p <= 30) {
+         for ($p= 1; $p <= 30; $p++) {
            // code...
-           echo "Petite péruche <br>"; $p++;
+           echo $p; 
+           echo " Petite péruche <br>";
          }
         ?>
