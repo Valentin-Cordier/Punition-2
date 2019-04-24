@@ -162,4 +162,21 @@
                 echo "Je suis un péruche";
                 break;
             }
+
+            echo "<br>";
+            echo "<br>";
+            echo "Question 12:";
+            echo "<br>";
+
+            function incl(){
+            $x= rand(1,2);
+            if ($x=="1") {
+              // code...
+              include "page1.php";
+            } else {
+              // code...
+              include "page2.php";
+            }
+          }
+          echo incl();
         ?>
